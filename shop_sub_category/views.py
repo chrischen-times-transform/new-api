@@ -136,5 +136,6 @@ def save(request):
                 selected_shop_category_icon=new_selected_shop_category_icon_name, 
                 # shop_category_background_color=shop_category_background_color,  
                 shop_category_seq=shop_category_seq
+                
             )
     return JsonResponse(response_data)
